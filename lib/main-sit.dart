@@ -5,9 +5,9 @@ import 'my_app.dart';
 
 void main() {
   var configuredApp = const AppConfig(
-    appName: 'Build flavors DEV',
-    flavorName: 'development',
-    apiBaseUrl: 'https://dev-api.example.com/',
+    appName: 'Build flavors SIT',
+    flavorName: 'system integration test',
+    apiBaseUrl: 'https://sit-api.example.com/',
     child: MyApp(),
   );
 
